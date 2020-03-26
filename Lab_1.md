@@ -44,14 +44,14 @@ subplot(2,3,4)
 R = img;
 R(:,:,2:3)=0;
 imshow(R)
-title("Orignal RGB Image")
+title("RED Chaneel In Red")
 %Green Component
 subplot(2,3,5);
 G = img;
 G(:,:,1)=0;
 G(:,:,3)=0;
 imshow(G)
-title("Orignal RGB Image")
+title("Green Channel In Green")
 %Blue component
 B = img;
 B(:,:,1:2)=0;
