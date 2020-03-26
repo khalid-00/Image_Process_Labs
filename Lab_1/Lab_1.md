@@ -16,7 +16,7 @@ The dimentions are :
 | 2 to 8 bits per color plane | uint8 |
 | 9 to 16 bits per pixel | uint16 (BMP, JPEG, PNG, and TIFF) For the 16-bit BMP packed format (5-6-5), MATLAB returns uint8 |
 
-## Question 4
+## Question 4 + 5
 ```
 %===================================================================
 clc
