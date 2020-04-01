@@ -10,7 +10,7 @@ The image is tif extention and it has 4 channels, with code image=img(:,:,1:3) t
 ## Question 3 
 
 Image negatives useful for enhancing white or grey detail embedded in dark regions of an image.
-![Alt text](/path/to/histogram.jpg)
+!(inage)(histogram.jpg)
 
 
 ## Question 4 
