@@ -5,7 +5,7 @@
 
 The image is tif extention and it has 4 channels, with code image=img(:,:,1:3) the image is ready to save as JPG. 
 
-![image](Image/images d.jpg)
+![Image](Image/images d.jpg)
 
 ## Question 3 
 
