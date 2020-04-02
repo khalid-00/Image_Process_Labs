@@ -37,7 +37,7 @@ this the result.
 ![image](https://github.com/khalid-00/Image_Process_Labs/blob/master/Lab_2/Images/image-003.jpg)
 ## Question 5 
 As I notice from studying the Binarized for image it's useful when the shape in the image is too dark and not clear after applying the imbinarize on the image we got the image with clear shape. 
-Also, to detect the characters from images after applying the thresholding.
+Also, to detect the letters from images after applying the thresholding.
 
 ![image](https://www.mdpi.com/sensors/sensors-19-05466/article_deploy/html/images/sensors-19-05466-g010.png)
 
