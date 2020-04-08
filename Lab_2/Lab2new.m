@@ -39,4 +39,12 @@ bw2= imbinarize(hq1);
 imshow(bw2);
 
 
+img2=imread('bodyb.tif');
+im2 = img2(:,:,1:3);
+im2gray = rgb2gray(im2);
 
+ed = edge(im2gray,'Sobel');
+im_enhanced = imadjust(im2gray);
+imFull_Enhanced= im_enhanced + uint8(ed);
+figure;
+imshowpair(imFull_Enhanced,im_enhanced,'montage');
