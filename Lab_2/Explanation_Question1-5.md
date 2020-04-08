@@ -3,7 +3,8 @@
 
 ## Question 1
 
-The image is tif extention and it has 4 channels, with code image=img(:,:,1:3) the image is ready to save as JPG. 
+The image is tif, it has 4 channels, with code image=img(:,:,1:3) the image is ready to save as JPG.
+
 
 ![Image](https://github.com/khalid-00/Image_Process_Labs/blob/master/Lab_2/Images/image1.jpg)
 ## Question 2 
@@ -35,10 +36,11 @@ this the result.
 
 ![image](https://github.com/khalid-00/Image_Process_Labs/blob/master/Lab_2/Images/image-003.jpg)
 ## Question 5 
-As I notice from studying the Binarized for image it's useful when the character  in the image is too dark and not clear after applying the imbinarize on the image we got the image with clear character 
+As I notice from studying the Binarized for image it's useful when the shape in the image is too dark and not clear after applying the imbinarize on the image we got the image with clear shape. 
+Also, to detect the letters from images after applying the thresholding.
 
-![image](https://programmer.help/images/blog/7ee8b9a7a1c5a396fce5d0464159b75e.jpg)
+![image](https://www.mdpi.com/sensors/sensors-19-05466/article_deploy/html/images/sensors-19-05466-g010.png)
 
 
-
+![image](https://codetobuy.com/wp-content/uploads/edd/2019/06/Car-Number-Plate-Detection-Using-MATLAB-and-Image-Processing-Cover.png)
 
