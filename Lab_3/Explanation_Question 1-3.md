@@ -149,12 +149,14 @@ intensity
 1. LAPLACE
 2. SOBEL 
 ``` 
+ h=fspecial('laplacian',0);
+ Xp=imfilter(im,h);
+figure
 
-h=fspecial('laplacian',0);
-Xp=imfilter(im,h);
-imshow(Xp)
-imshow(Xp+im)
+ imshow(Xp)
+ imshow(Xp+im)
 
+title('High pass filter')
 ```
 
 ### Question 3
