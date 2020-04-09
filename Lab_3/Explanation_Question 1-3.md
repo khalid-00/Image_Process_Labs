@@ -13,7 +13,7 @@
                                       
                                       
                                       
-##    Dr .Eric fauvert                   
+##    Dr .Eric Fauvert                   
                                       
                                       
 ##     Dr . Zowenig WU
@@ -96,6 +96,8 @@ imshow(Laplacian> 8 ,[])
 
 title('Laplacian');
 ```
+![image](https://github.com/khalid-00/Image_Process_Labs/blob/master/Lab_3/images/Captur2.PNG)
+
 ### Question 2 :
 ##### Smoothing ( low pass) :
 
@@ -160,6 +162,7 @@ figure
 
 title('High pass filter')
 ```
+![image2](https://github.com/khalid-00/Image_Process_Labs/blob/master/Lab_3/images/Capture3.PNG)
 
 ### Question 3
 ##### Combining Spatial Enhancement Methods 
@@ -204,3 +207,4 @@ imshow(v),imshow(p3+v)
 
 ```
 
+![image](https://github.com/khalid-00/Image_Process_Labs/blob/master/Lab_3/images/Capture1.PNG)
