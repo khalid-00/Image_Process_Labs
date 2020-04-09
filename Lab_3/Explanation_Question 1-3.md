@@ -16,7 +16,7 @@
 ##    Dr .Eric Fauvert                   
                                       
                                       
-##     Dr . Zowenig WU
+##     Dr . Zongwei WU
 
 
 ###                  Mohammad Khaeld Alshikh
