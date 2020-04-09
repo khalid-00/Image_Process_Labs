@@ -172,10 +172,7 @@ not achieved using a single
 operation
 Rather we combine a
 range of techniques in order
-to achieve a final result
-This example will focus on
-enhancing the bone scan to
-the right
+to achieve a final result.
 
 ```
 
