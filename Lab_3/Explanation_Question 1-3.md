@@ -83,15 +83,17 @@ subplot(323)
 imshowpair(Gmag, Gdir, 'montage');
 title('Gradient Magnitude,using Prewitt method');
 % ---------------------------------------
+
 % LAPLACIAN
 
 kernel = [
     0 -1 0 ;
     -1 4 -1 ;
     0 -1 0 ];
-Laplacian = imfilter (grey,kernel);
+Laplacian =imfilter(im2grey,kernel);
 subplot(324)
-imshow(Laplacian)
+imshow(Laplacian> 8 ,[])
+
 title('Laplacian');
 ```
 ### Question 2 :
