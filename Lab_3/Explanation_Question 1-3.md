@@ -175,13 +175,32 @@ enhancing the bone scan to
 the right
 
 ```
-img2=imread('bodyb.tif');
-im2 = img2(:,:,1:3);
-b = imsharpen(im2);
-im2gray = rgb2gray(im2);
-im_enhanced = imadjust(im2gray);
-Laplacian1 = imfilter (im_enhanced,kernel);
-figure;
-imshowpair(b,im2,'montage');
+
+img=imread('bodyb.tif');
+v1=img( :, : ,1:3);
+v2=rgb2gray(v1);
+v=im2double(v2);
+ 
+h=[0 1 0 ;
+    1 -4 1;
+    0 1 0];
+Xp=filter2(h,v);
+subplot(131)
+imshow(Xp)
+
+
+b = imsharpen(v,'Radius',2,'amount',2);
+subplot(132)
+imshow(imadd(Xp,b))
+
+h=fspecial('sobel');
+h1=h';
+p1=imfilter(v,h);
+p2=imfilter(v,h1);
+p3=abs(p1)+abs(p2);
+subplot(133)
+imshow(v),imshow(p3+v)
+
+
 ```
 
