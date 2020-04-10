@@ -13,10 +13,10 @@
                                       
                                       
                                       
-##    Dr .Eric Fauvert                   
+##    Prof .Eric Fauvert                   
                                       
                                       
-##     Dr . Zongwei WU
+##      Zongwei WU
 
 
 ###                  Mohammad Khaeld Alshikh
