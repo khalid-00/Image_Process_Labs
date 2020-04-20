@@ -269,3 +269,8 @@ title ('White top hat filter 4')
 
 ![image](https://github.com/khalid-00/Image_Process_Labs/blob/master/Lab4/Images/Reuslt%201234%20hat%20filter.PNG)
 
+
+
+
+#### References :
+Digital Image processing 4th, Woods and Gonzalez.
