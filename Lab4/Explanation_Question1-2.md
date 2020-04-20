@@ -178,7 +178,7 @@ xlabel('Bin-Diameters');ylabel ('Diam-Distribution');title('Size-Distribution')
 
 ### Question 2 
 
- Useing the same approach for Moon image.
+ Using the same approach for Moon image.
  
 ###### Code
 
