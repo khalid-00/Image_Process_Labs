@@ -64,8 +64,7 @@ imshow(A2);title('Image Dilation')
 
 ######  **Erosion** 
  
->> Erosion is used for shrinking of element A by using
-element B
+>> Erosion is used for shrinking of element A by using element B
 >> One of the simplest uses of erosion is for eliminating irrelevant details from a binary image.
 
 ![image](https://github.com/khalid-00/Image_Process_Labs/blob/master/Lab4/Images/erosion%20.jpg) 
@@ -117,7 +116,7 @@ Opening and Closing are two important operators from mathematical morphology
 > They are normally applied to binary images
 
 
-> We use opening for:
+We use opening for:
   >> Smoothes object boundaries
   >> Eliminates noise (isolated pixels)
   >> Maintains object size
